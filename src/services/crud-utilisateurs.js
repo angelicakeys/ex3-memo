@@ -3,7 +3,9 @@ import { instanceFirebaseAuth } from './firebase-initialisation'
 import { instanceFirebaseUI } from './firebase-initialisation';
 import 'firebaseui/dist/firebaseui.css';
 /* Ex3 - Point D)i) */
-
+import {collUtil} from './config';
+import {instanceFirestore } from './firebase-initialisation';
+import Utilisateur from '../composants/Utilisateur';
 /**
  * Initialiser le widget FirebaseUI et l'injecte dans la page Web
  * @param {string} eltAncrage sélecteur DOM où injecter le widget de connexion
@@ -47,7 +49,26 @@ export function observerConnexion(mutateurEtatUtil) {
  */
 export function creerProfil(id, nom, courriel) {
   /* Ex3 - Point D)ii) */
-  
+ 
+   /*  instanceFirestore.collection(collUtil).doc(util.uid).set(
+    {nom: util.displayName, courriel: util.email},
+    {merge:true}
+  ); */
+ /*  instanceFirestore.collection(collUtil).doc(Utilisateur.uid),(
+   { id:id,
+    nom:nom,
+    courriel:courriel},
+    {merge:true}
+  );
+   */
+ /*  instanceFirestore.collection(collUtil).doc(util.uid).set(
+   { id:id,
+    nom:nom,
+    courriel:courriel},
+    {merge:true}
+*/
+   
+ 
 }
 
 /**
