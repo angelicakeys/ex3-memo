@@ -1,0 +1,18 @@
+{
+  "files": {
+    "main.css": "/ex3-memo/static/css/main.f38b6f5c.chunk.css",
+    "main.js": "/ex3-memo/static/js/main.86ab0944.chunk.js",
+    "runtime-main.js": "/ex3-memo/static/js/runtime-main.0d27a952.js",
+    "static/css/2.5110bfca.chunk.css": "/ex3-memo/static/css/2.5110bfca.chunk.css",
+    "static/js/2.41aeebf2.chunk.js": "/ex3-memo/static/js/2.41aeebf2.chunk.js",
+    "index.html": "/ex3-memo/index.html",
+    "static/js/2.41aeebf2.chunk.js.LICENSE.txt": "/ex3-memo/static/js/2.41aeebf2.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.0d27a952.js",
+    "static/css/2.5110bfca.chunk.css",
+    "static/js/2.41aeebf2.chunk.js",
+    "static/css/main.f38b6f5c.chunk.css",
+    "static/js/main.86ab0944.chunk.js"
+  ]
+}
